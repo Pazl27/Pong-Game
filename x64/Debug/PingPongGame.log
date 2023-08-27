@@ -1,0 +1,6 @@
+﻿  Bot.cpp
+D:\Paul\HFT Stuttgart\Workspaces\VisualStudio\PingPongGame\PingPongGame\Bot.cpp(16,29): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Paul\HFT Stuttgart\Workspaces\VisualStudio\PingPongGame\PingPongGame\Bot.cpp(16,22): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Paul\HFT Stuttgart\Workspaces\VisualStudio\PingPongGame\PingPongGame\Bot.cpp(16,19): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Paul\HFT Stuttgart\Workspaces\VisualStudio\PingPongGame\PingPongGame\Bot.cpp(16,16): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  PingPongGame.vcxproj -> D:\Paul\HFT Stuttgart\Workspaces\VisualStudio\PingPongGame\x64\Debug\PingPongGame.exe
