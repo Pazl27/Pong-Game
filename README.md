@@ -1,33 +1,47 @@
 # Pong Game with Raylib - Multiplayer and Singleplayer
 
 ## Pong Game
+- [Pictures](#pictures)
+- [Description](#description)
+- [Installation](#installation-for-visual-studio)
+- [Controls](#controls)
 
-Welcome to the Pong Game implemented in C++ using the Raylib library. This classic game allows you to play either in multiplayer mode, competing against a friend, or in singleplayer mode, where you can challenge a bot. Get ready to relive the nostalgia of one of the earliest arcade games!
+Welcome to the Pong Game implemented in C++ using the [Raylib library](https://www.raylib.com). This classic game allows you to play either in multiplayer mode, competing against a friend, or in singleplayer mode, where you can challenge a bot. Get ready to relive the nostalgia of one of the earliest arcade games!
 
 ## Pictures
 ![Start Screen](./Screeenshots/start-menu.png)
 ![Gameplay](./Screeenshots/game.png)
-## Controls
 
+## Description
+- This game is a simple implementation of the classic Pong game.
+- The game has two modes: Multiplayer and Singleplayer.
+- In multiplayer mode, two players can compete against each other.
+- In singleplayer mode, you can challenge a bot.
+- The game has a start screen where you can choose the game mode.
+- The game has a score display for both players.
+
+## Installation for Visual Studio
+- In the project properties, set the following:
+  - C/C++ > General > Additional Include Directories: `$(SolutionDir)include`
+  - Linker > General > Additional Library Directories: `$(SolutionDir)lib`
+
+
+## Controls
 ### Player 1 (Left Paddle) Multiplayer:
 
-Move Up: W
-
-Move Down: S
+- Move Up: W
+- Move Down: S
 
 
 ### Player 2 (Right Paddle) Multiplayer:
 
-Move Up: I
-
-Move Down: K
+- Move Up: I
+- Move Down: K
 
 ### Singleplayer (Against Bot):
 
-Move Up: W
-
-Move Down: S
-
+- Move Up: W
+- Move Down: S
 
 
 ## Game Modes
