@@ -5,8 +5,8 @@
 Welcome to the Pong Game implemented in C++ using the Raylib library. This classic game allows you to play either in multiplayer mode, competing against a friend, or in singleplayer mode, where you can challenge a bot. Get ready to relive the nostalgia of one of the earliest arcade games!
 
 ## Pictures
-![Start Screen](Screenshots/start-menu.png)
-![Gameplay](Screenshots/game.png)
+![Start Screen](./Screeenshots/start-menu.png)
+![Gameplay](./Screeenshots/game.png)
 ## Controls
 
 ### Player 1 (Left Paddle) Multiplayer:
