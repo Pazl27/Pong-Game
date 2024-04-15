@@ -136,9 +136,6 @@
     <ClCompile Include="src\main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Ball.h" />
-    <ClInclude Include="Block.h" />
-    <ClInclude Include="Bot.h" />
     <ClInclude Include="include\Ball.h" />
     <ClInclude Include="include\Block.h" />
     <ClInclude Include="include\Bot.h" />

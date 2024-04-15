@@ -1,9 +1,9 @@
 #include "raylib.h"
-#include "Ball.h"
-#include "Block.h"
 #include <iostream>
 #include <string>
-#include "Bot.h"
+#include "../include/Bot.h"
+#include "../include/Ball.h"
+#include "../include/Block.h"
 
 using namespace std;
 
@@ -161,12 +161,12 @@ int main() {
 			int textWidth = MeasureText(text, 40);
 			DrawText(text, GetScreenWidth() / 2 - textWidth/2, GetScreenHeight() / 2 - 20, 40, ORANGE);
 			if (multiplayer) {
-				DrawText(TextFormat("Multiplayer aktiviert"), 10, GetScreenHeight() - 20, 10, RED);
+				DrawText(TextFormat("Multiplayer activated"), 10, GetScreenHeight() - 20, 10, RED);
 				int mulitWidth = MeasureText(TextFormat("Press O to switch Multiplayer off"), 20);
 				DrawText(TextFormat("Press O to switch Multiplayer off"), GetScreenWidth() / 2 - mulitWidth / 2, GetScreenHeight() / 2 + 20, 20, RED);
 			}
 			else if (!multiplayer) {
-				DrawText(TextFormat("Multiplayer deaktiviert"), 10, GetScreenHeight() - 20, 10, RED);
+				DrawText(TextFormat("Multiplayer deactivated"), 10, GetScreenHeight() - 20, 10, RED);
 				int mulitWidth = MeasureText(TextFormat("Press M for Multiplayer"), 20);
 				DrawText(TextFormat("Press M for Multiplayer"), GetScreenWidth() / 2 - mulitWidth / 2, GetScreenHeight() / 2 + 20, 20, RED);
 			}

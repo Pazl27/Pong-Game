@@ -1,5 +1,5 @@
 #include "raylib.h"
-#include "Bot.h"
+#include "../include/Bot.h"
 
 Bot::Bot(float x, float y, float width, float height)
 {
