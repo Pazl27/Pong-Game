@@ -22,27 +22,21 @@ Welcome to the Pong Game implemented in C++ using the [Raylib library](https://w
 
 ## Installation for Visual Studio
 - In the project properties, set the following:
-  - C/C++ > General > Additional Include Directories: `$(SolutionDir)include`
-  - Linker > General > Additional Library Directories: `$(SolutionDir)lib`
-
+  - C/C++ > General > Additional Include Directories: `./libraries/raylib-4.5.0/include`
+  - Linker > General > Additional Library Directories: `./libraries/raylib-4.5.0/lib`
 
 ## Controls
 ### Player 1 (Left Paddle) Multiplayer:
-
 - Move Up: W
 - Move Down: S
 
-
 ### Player 2 (Right Paddle) Multiplayer:
-
 - Move Up: I
 - Move Down: K
 
 ### Singleplayer (Against Bot):
-
 - Move Up: W
 - Move Down: S
-
 
 ## Game Modes
 ### Multiplayer Mode
